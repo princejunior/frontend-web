@@ -14,6 +14,18 @@ const notes = [
     note:
       'Event listeners are called only when the event happens in the context of the object they are registered on.',
   },
+  {
+    note:
+      'An asynchronous model allows multiple things to happen at the same time. When you start an action, your program continues to run. When the action finishes, the program is informed and gets access to the result (for example, the data read from disk).',
+  },
+  {
+    note:
+      'Callbacks: This style of programming is workable, but the indentation level increases with each asynchronous action because you end up in another function. Doing more complicated things, such as running multiple actions at the same time, can get a little awkward.',
+  },
+  {
+    note:
+      'A promise is an asynchronous action that may complete at some point and produce a value. It is able to notify anyone who is interested when its value is available.',
+  },
 ];
 
 notes.forEach(readNotes);
