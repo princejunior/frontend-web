@@ -8,6 +8,10 @@ const links = [
     url: 'weeks/week02/week02.html',
   },
   {
+    label: 'Week 03 ',
+    url: 'weeks/week03/week03.html',
+  },
+  {
     label: 'Ninja Quiz',
     url: '',
   },
