@@ -1,0 +1,24 @@
+.board {
+  height: 600px;
+  width: 600px;
+}
+
+.left,
+.middle,
+.right {
+  height: 200px;
+  width: 200px;
+}
+
+.left {
+  border-right: black 2px solid;
+}
+
+.middle {
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+}
+
+.right {
+  border-left: black 2px solid;
+}
