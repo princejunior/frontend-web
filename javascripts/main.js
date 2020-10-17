@@ -16,6 +16,10 @@ const links = [
     url: 'weeks/week04/week04.html',
   },
   {
+    label: 'Week 05 ',
+    url: 'weeks/week05/week05.html',
+  },
+  {
     label: 'Ninja Quiz',
     url: '',
   },
